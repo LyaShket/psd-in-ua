@@ -51,7 +51,6 @@ body {
   }
 }
 
-
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -66,6 +65,7 @@ body {
   background-size: 62%;
   padding: 100px 0 0 0;
 }
+
 .header {
   margin: 0 0 240px 0;
   &__title {
@@ -84,10 +84,10 @@ body {
 }
 
 .home {
-
+  margin: 0 0 103px 0;
   &__slider {
     max-width: 610px;
-    @media(max-width: 767px) {
+    @media (max-width: 767px) {
       margin: 0 auto;
       max-width: 100%;
     }
@@ -96,7 +96,7 @@ body {
       left: 106px;
       display: inline-block;
       width: auto;
-      @media(max-width: 767px) {
+      @media (max-width: 767px) {
         display: none !important;
       }
     }
@@ -134,7 +134,7 @@ body {
         content: "next";
         text-align: left;
         background: url("../images/!slider/arrow-right-1.png") 100% 50% no-repeat;
-        @media(max-width: 767px) {
+        @media (max-width: 767px) {
           left: calc(100% - 110px);
         }
       }
@@ -184,9 +184,68 @@ body {
     width: 130px;
     height: 130px;
     cursor: pointer;
-    @media(max-width: 1365px) {
+    @media (max-width: 1365px) {
       bottom: -30px;
       margin: 0 auto 30px auto;
+    }
+  }
+}
+
+.download {
+  .container {
+    max-width: 1263px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media(max-width: 1199px) {
+      margin: -10px;
+    }
+  }
+  &__link {
+    width: 286px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    @media(max-width: 1199px) {
+      width: calc(50% - 20px);
+      margin: 10px;
+    }
+    @media(max-width: 449px) {
+      width: 100%;
+    }
+    &-1 {
+      background: url("../images/download/01.png") 50% 50% no-repeat, #f4f6f7;
+      &:hover {
+        box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+        background: url("../images/download/01_.png") 50% 50% no-repeat,
+        linear-gradient(-248.92deg, #6048ff 0%, #7920e6 100%);
+      }
+    }
+    &-2 {
+      background: url("../images/download/02.png") 50% 50% no-repeat, #f4f6f7;
+      &:hover {
+        box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+        background: url("../images/download/02_.png") 50% 50% no-repeat,
+        linear-gradient(-248.92deg, #6048ff 0%, #7920e6 100%);
+      }
+    }
+    &-3 {
+      background: url("../images/download/03.png") 50% 50% no-repeat, #f4f6f7;
+      &:hover {
+        box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+        background: url("../images/download/03_.png") 50% 50% no-repeat,
+        linear-gradient(-248.92deg, #6048ff 0%, #7920e6 100%);
+      }
+    }
+    &-4 {
+      background: url("../images/download/04.png") 50% 50% no-repeat, #f4f6f7;
+      &:hover {
+        box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+        background: url("../images/download/04_.png") 50% 50% no-repeat,
+        linear-gradient(-248.92deg, #6048ff 0%, #7920e6 100%);
+      }
     }
   }
 }

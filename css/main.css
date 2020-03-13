@@ -444,6 +444,10 @@ body.lock {
   letter-spacing: 4.4px;
 }
 
+.home {
+  margin: 0 0 103px 0;
+}
+
 .home__slider {
   max-width: 610px;
 }
@@ -566,4 +570,90 @@ body.lock {
     bottom: -30px;
     margin: 0 auto 30px auto;
   }
+}
+
+.download .container {
+  max-width: 1263px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 1199px) {
+  .download .container {
+    margin: -10px;
+  }
+}
+
+.download__link {
+  width: 286px;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+@media (max-width: 1199px) {
+  .download__link {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+}
+
+@media (max-width: 449px) {
+  .download__link {
+    width: 100%;
+  }
+}
+
+.download__link-1 {
+  background: url("../images/download/01.png") 50% 50% no-repeat, #f4f6f7;
+}
+
+.download__link-1:hover {
+  -webkit-box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+          box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+  background: url("../images/download/01_.png") 50% 50% no-repeat, linear-gradient(-248.92deg, #6048ff 0%, #7920e6 100%);
+}
+
+.download__link-2 {
+  background: url("../images/download/02.png") 50% 50% no-repeat, #f4f6f7;
+}
+
+.download__link-2:hover {
+  -webkit-box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+          box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+  background: url("../images/download/02_.png") 50% 50% no-repeat, linear-gradient(-248.92deg, #6048ff 0%, #7920e6 100%);
+}
+
+.download__link-3 {
+  background: url("../images/download/03.png") 50% 50% no-repeat, #f4f6f7;
+}
+
+.download__link-3:hover {
+  -webkit-box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+          box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+  background: url("../images/download/03_.png") 50% 50% no-repeat, linear-gradient(-248.92deg, #6048ff 0%, #7920e6 100%);
+}
+
+.download__link-4 {
+  background: url("../images/download/04.png") 50% 50% no-repeat, #f4f6f7;
+}
+
+.download__link-4:hover {
+  -webkit-box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+          box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
+  background: url("../images/download/04_.png") 50% 50% no-repeat, linear-gradient(-248.92deg, #6048ff 0%, #7920e6 100%);
 }
