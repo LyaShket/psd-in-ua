@@ -104,10 +104,13 @@ body {
       top: calc(100%);
       width: 86px;
       height: 12px;
+      z-index: 1;
       &:before {
+        left: -86px;
+        width: 86px;
+        z-index: 0;
         height: 12px;
         position: relative;
-        left: -86px;
         /* Style for text */
         color: #3f3f4a;
         font-size: 12px;
@@ -116,6 +119,7 @@ body {
         font-weight: 700;
         letter-spacing: 2.4px;
       }
+      cursor: pointer;
     }
     .slick-prev {
       &:before {
