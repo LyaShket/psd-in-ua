@@ -457,6 +457,12 @@ body.lock {
   margin: 0 0 21px 0;
 }
 
+@media (max-width: 767px) {
+  .header__title {
+    margin: 0 0 8px 0;
+  }
+}
+
 .header__subtitle {
   color: #dfe5e9;
   font-family: Helvetica;
@@ -967,7 +973,7 @@ body.lock {
 
 @media (max-width: 767px) {
   .reviews {
-    padding: 130px 0 0 0;
+    padding: 205px 0 0 0;
     margin: 0 0 100px 0;
   }
 }
