@@ -49,7 +49,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 2px !important;
+  width: 6px !important;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -343,7 +343,6 @@ body {
 }
 
 .make {
-  margin: 0 0 374px 0;
   &__title {
     color: #00578d;
     font-family: Montserrat;
@@ -428,6 +427,7 @@ body {
 
 .reviews {
   margin: 0 0 195px 0;
+  padding: 374px 0 0 0;
   overflow: hidden;
   .container {
     max-width: 1573px;

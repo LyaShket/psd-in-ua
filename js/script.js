@@ -35,7 +35,6 @@ $(document).ready(function(){
 		slidesToScroll: 1,
 		dots: true,
 		adaptiveHeight: true,
-		variableWidth: true,
 	});
 	$('.make__slider').slick({
         slidesToShow: 1,

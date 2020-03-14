@@ -418,7 +418,7 @@ body.lock {
 }
 
 ::-webkit-scrollbar {
-  width: 2px !important;
+  width: 6px !important;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -798,10 +798,6 @@ body.lock {
   letter-spacing: 1.8px;
 }
 
-.make {
-  margin: 0 0 374px 0;
-}
-
 .make__title {
   color: #00578d;
   font-family: Montserrat;
@@ -900,6 +896,7 @@ body.lock {
 
 .reviews {
   margin: 0 0 195px 0;
+  padding: 374px 0 0 0;
   overflow: hidden;
 }
 
