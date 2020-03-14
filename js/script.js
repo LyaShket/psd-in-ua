@@ -36,6 +36,12 @@ $(document).ready(function(){
 		dots: true,
 		adaptiveHeight: true,
 	});
+	$('.make__slider').slick({
+        slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		adaptiveHeight: true,
+	});
 });
 
 $(document).ready(update);
