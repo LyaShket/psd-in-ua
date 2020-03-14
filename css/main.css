@@ -421,12 +421,6 @@ body.lock {
   width: 2px !important;
 }
 
-@media (max-width: 767px) {
-  ::-webkit-scrollbar {
-    display: none !important;
-  }
-}
-
 ::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
 }
@@ -459,6 +453,7 @@ body.lock {
 
 .home {
   margin: 0 0 103px 0;
+  overflow: hidden;
 }
 
 .home__slider {
@@ -905,6 +900,7 @@ body.lock {
 
 .reviews {
   margin: 0 0 195px 0;
+  overflow: hidden;
 }
 
 .reviews .container {
