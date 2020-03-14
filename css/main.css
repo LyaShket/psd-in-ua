@@ -427,8 +427,8 @@ body.lock {
 
 /* ------------- */
 .wrapper {
-  background: url("../images/!bg/01.png") 100% 0 no-repeat;
-  background-size: 62%;
+  background: url("../images/!bg/01.png") 100% 0 no-repeat, url("../images/!bg/02.png") 0 784px no-repeat, url("../images/!bg/03.png") 100% 2521px no-repeat;
+  background-size: 62%, auto, auto;
   padding: 100px 0 0 0;
 }
 
