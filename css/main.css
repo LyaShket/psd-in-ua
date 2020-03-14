@@ -1166,3 +1166,133 @@ body.lock {
     max-width: 100%;
   }
 }
+
+.socials {
+  margin: 0 0 59px 0;
+}
+
+.socials .container {
+  max-width: 257px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.socials__link {
+  width: 45px;
+  height: 44px;
+}
+
+.socials__link-1 {
+  background: url("../images/socials/01.png") 50% 50% no-repeat;
+}
+
+.socials__link-1:hover {
+  background-image: url("../images/socials/01_.png");
+}
+
+.socials__link-2 {
+  background: url("../images/socials/02.png") 50% 50% no-repeat;
+}
+
+.socials__link-2:hover {
+  background-image: url("../images/socials/02_.png");
+}
+
+.socials__link-3 {
+  background: url("../images/socials/03.png") 50% 50% no-repeat;
+}
+
+.socials__link-3:hover {
+  background-image: url("../images/socials/03_.png");
+}
+
+.socials__link-4 {
+  background: url("../images/socials/04.png") 50% 50% no-repeat;
+}
+
+.socials__link-4:hover {
+  background-image: url("../images/socials/04_.png");
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 43px 0 58px 0;
+  max-width: 1176px;
+}
+
+.footer__nav {
+  margin: 0 auto;
+  background-color: #fafbff;
+}
+
+.footer__ul {
+  margin: 0 15px;
+}
+
+.footer__li {
+  display: inline-block;
+  margin: 15px 66px 0 0;
+}
+
+.footer__li:last-child {
+  margin: 15px 0 0 0;
+}
+
+.footer__link {
+  color: #aaaaaa !important;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+  color: black !important;
+}
+
+.footer__docs {
+  margin: 0 15px;
+}
+
+.footer__docs-link {
+  color: #aaaaaa !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  display: inline-block;
+  margin: 15px 31px 0 0;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.footer__docs-link:hover {
+  color: black !important;
+}
+
+.footer__docs-link:last-child {
+  margin: 15px 0 0 0;
+}
+
+.footer__copyright {
+  padding: 25px 0;
+  text-align: center;
+  color: #aaaaaa;
+  font-family: Tahoma;
+  font-size: 16px;
+  line-height: 19.2px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}

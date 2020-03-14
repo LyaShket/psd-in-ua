@@ -617,3 +617,109 @@ body {
   }
 }
 
+.socials {
+  margin: 0 0 59px 0;
+  .container {
+    max-width: 257px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    width: 45px;
+    height: 44px;
+    &-1 {
+      background: url("../images/socials/01.png") 50% 50% no-repeat;
+      &:hover {
+        background-image: url("../images/socials/01_.png");
+      }
+    }
+    &-2 {
+      background: url("../images/socials/02.png") 50% 50% no-repeat;
+      &:hover {
+        background-image: url("../images/socials/02_.png");
+      }
+    }
+    &-3 {
+      background: url("../images/socials/03.png") 50% 50% no-repeat;
+      &:hover {
+        background-image: url("../images/socials/03_.png");
+      }
+    }
+    &-4 {
+      background: url("../images/socials/04.png") 50% 50% no-repeat;
+      &:hover {
+        background-image: url("../images/socials/04_.png");
+      }
+    }
+  }
+}
+
+.footer {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0 58px 0;
+    max-width:  1176px;
+  }
+  &__nav {
+    margin: 0 auto;
+    background-color: #fafbff;
+  }
+
+  &__ul {
+    margin: 0 15px;
+  }
+
+  &__li {
+    display: inline-block;
+    margin: 15px 66px 0 0;
+    &:last-child {
+      margin: 15px 0 0 0;
+    }
+  }
+
+  &__link {
+    color: #aaaaaa !important;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    transition: color 0.3s ease;
+    &:hover {
+      color: black !important;
+    }
+  }
+
+  &__docs {
+    margin: 0 15px;
+  }
+
+  &__docs-link {
+    color: #aaaaaa !important;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.6px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    display: inline-block;
+    margin: 15px 31px 0 0;
+    transition: color 0.3s ease;
+    &:hover {
+      color: black !important;
+    }
+    &:last-child {
+      margin: 15px 0 0 0;
+    }
+  }
+
+  &__copyright {
+    padding: 25px 0;
+    text-align: center;
+    color: #aaaaaa;
+    font-family: Tahoma;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+  }
+}
