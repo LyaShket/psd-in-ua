@@ -1075,6 +1075,16 @@ body.lock {
 
 .subscribe .container {
   max-width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .subscribe__title {
@@ -1090,16 +1100,20 @@ body.lock {
   color: #858992;
   text-align: center;
   max-width: 835px;
-  margin: 0 auto;
   font-size: 20px;
   line-height: 33px;
   margin: 0 0 100px 0;
 }
 
 .subscribe__form {
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Avant Garde";
 }
 

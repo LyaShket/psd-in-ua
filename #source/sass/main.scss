@@ -552,6 +552,9 @@ body {
   margin: 0 0 126px 0;
   .container {
     max-width: 940px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   &__title {
     font-family: "Avant Garde";
@@ -566,14 +569,15 @@ body {
     color: #858992;
     text-align: center;
     max-width: 835px;
-    margin: 0 auto;
     font-size: 20px;
     line-height: 33px;
     margin: 0 0 100px 0;
   }
 
   &__form {
+    align-self: stretch;
     display: flex;
+    justify-content: center;
     font-family: "Avant Garde";
     @media(max-width: 767px) {
       flex-wrap: wrap;
@@ -612,3 +616,4 @@ body {
     }
   }
 }
+
