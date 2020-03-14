@@ -49,7 +49,10 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 2px !important;
+  @media(max-width: 767px) {
+    display: none !important;
+  }
 }
 
 ::-webkit-scrollbar-thumb {

@@ -418,7 +418,13 @@ body.lock {
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 2px !important;
+}
+
+@media (max-width: 767px) {
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
 }
 
 ::-webkit-scrollbar-thumb {
