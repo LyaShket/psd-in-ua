@@ -615,6 +615,18 @@ body.lock {
   }
 }
 
+.home__scroll img {
+  -webkit-transition: -webkit-transform 0.45s ease;
+  transition: -webkit-transform 0.45s ease;
+  transition: transform 0.45s ease;
+  transition: transform 0.45s ease, -webkit-transform 0.45s ease;
+}
+
+.home__scroll:hover img {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 /* 2 blocks in 1 scss style */
 .download__title {
   color: #00578d;
@@ -670,6 +682,10 @@ body.lock {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 10px;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
 }
 
 @media (max-width: 1199px) {
@@ -1279,10 +1295,16 @@ body.lock {
 .socials__link {
   width: 45px;
   height: 44px;
+  -webkit-transition: background-position 0.3s ease, background-image 0.3s ease;
+  transition: background-position 0.3s ease, background-image 0.3s ease;
+}
+
+.socials__link:hover {
+  background-position: 0 -44px;
 }
 
 .socials__link-1 {
-  background: url("../images/socials/01.png") 50% 50% no-repeat;
+  background: url("../images/socials/01.png") 50% 50% repeat-y;
 }
 
 .socials__link-1:hover {
@@ -1290,7 +1312,7 @@ body.lock {
 }
 
 .socials__link-2 {
-  background: url("../images/socials/02.png") 50% 50% no-repeat;
+  background: url("../images/socials/02.png") 50% 50% repeat-y;
 }
 
 .socials__link-2:hover {
@@ -1298,7 +1320,7 @@ body.lock {
 }
 
 .socials__link-3 {
-  background: url("../images/socials/03.png") 50% 50% no-repeat;
+  background: url("../images/socials/03.png") 50% 50% repeat-y;
 }
 
 .socials__link-3:hover {
@@ -1306,7 +1328,7 @@ body.lock {
 }
 
 .socials__link-4 {
-  background: url("../images/socials/04.png") 50% 50% no-repeat;
+  background: url("../images/socials/04.png") 50% 50% repeat-y;
 }
 
 .socials__link-4:hover {

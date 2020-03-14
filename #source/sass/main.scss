@@ -205,6 +205,14 @@ body {
     @media(max-width: 767px) {
       display: none;
     }
+    img {
+      transition: transform 0.45s ease;
+    }
+    &:hover {
+      img {
+        transform: rotate(360deg);
+      }
+    }
   }
 }
 
@@ -244,6 +252,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    transition: box-shadow 0.3s ease;
     @media(max-width: 1199px) {
       width: calc(50% - 20px);
       margin: 10px;
@@ -675,26 +684,31 @@ body {
   &__link {
     width: 45px;
     height: 44px;
+    transition: background-position 0.3s ease,
+    background-image 0.3s ease;
+    &:hover {
+      background-position: 0 -44px;
+    }
     &-1 {
-      background: url("../images/socials/01.png") 50% 50% no-repeat;
+      background: url("../images/socials/01.png") 50% 50% repeat-y;
       &:hover {
         background-image: url("../images/socials/01_.png");
       }
     }
     &-2 {
-      background: url("../images/socials/02.png") 50% 50% no-repeat;
+      background: url("../images/socials/02.png") 50% 50% repeat-y;
       &:hover {
         background-image: url("../images/socials/02_.png");
       }
     }
     &-3 {
-      background: url("../images/socials/03.png") 50% 50% no-repeat;
+      background: url("../images/socials/03.png") 50% 50% repeat-y;
       &:hover {
         background-image: url("../images/socials/03_.png");
       }
     }
     &-4 {
-      background: url("../images/socials/04.png") 50% 50% no-repeat;
+      background: url("../images/socials/04.png") 50% 50% repeat-y;
       &:hover {
         background-image: url("../images/socials/04_.png");
       }
