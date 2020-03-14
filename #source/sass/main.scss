@@ -61,10 +61,17 @@ body {
   background: url("../images/!bg/01.png") 100% 0 no-repeat;
   background-size: 62%;
   padding: 100px 0 0 0;
+  @media(max-width: 767px) {
+    background: none;
+    padding: 15px 0 0 0;
+  }
 }
 
 .header {
   margin: 0 0 240px 0;
+  @media(max-width: 767px) {
+    margin: 0 0 100px 0;
+  }
   &__title {
     color: #69696a;
     font-family: "Times New Roman";
@@ -83,6 +90,9 @@ body {
 .home {
   margin: 0 0 103px 0;
   overflow: hidden;
+  @media(max-width: 767px) {
+    margin: 0 0 100px 0;
+  }
   &__slider {
     max-width: 610px;
     @media (max-width: 767px) {
@@ -182,9 +192,13 @@ body {
     width: 130px;
     height: 130px;
     cursor: pointer;
+    user-select: none;
     @media (max-width: 1365px) {
       bottom: -30px;
       margin: 0 auto 30px auto;
+    }
+    @media(max-width: 767px) {
+      display: none;
     }
   }
 }
@@ -204,6 +218,9 @@ body {
     font-weight: 500;
     text-align: center;
     margin: 0 0 80px 0;
+    @media(max-width: 767px) {
+      margin: 0 0 50px 0;
+    }
 	}
   &__links {  
     margin: 0 auto;
@@ -266,6 +283,9 @@ body {
 
 .about {
   margin: 193px 0 180px 0;
+  @media(max-width: 767px) {
+    margin: 100px 0;
+  }
   .container {
     max-width: 1169px;
   }
@@ -285,6 +305,9 @@ body {
     letter-spacing: 8.8px;
     text-align: center;
     margin: 0 0 127px 0;
+    @media(max-width: 767px) {
+      margin: 0 0 40px 0;
+    }
   }
   &__content {
     display: flex;
@@ -292,6 +315,9 @@ body {
     margin: 0 0 100px 0;
     @media(max-width: 1023px) {
       flex-direction: column;
+    }
+    @media(max-width: 767px) {
+      margin: 0 0 40px 0;
     }
   }
 
@@ -332,6 +358,9 @@ body {
     height: 83px;
     box-shadow: 0 0 5px 1px rgba(191, 191, 255, 0.85);
     background-image: linear-gradient(-255.29deg, #6048ff 0%, #782fe2 100%);
+    @media(max-width: 767px) {
+      max-width: 100%;
+    }
     /* Style for text */
     color: #ffffff !important;
     font-size: 12px;
@@ -357,6 +386,9 @@ body {
     font-weight: 500;
     text-align: center;
     margin: 0 0 91px 0;
+    @media(max-width: 767px) {
+      margin: 0 0 40px 0;
+    }
   }
 
   &__slider {
@@ -416,10 +448,6 @@ body {
     }
   }
 
-  &__slide {
-    
-  }
-
   &__image {
     width: 100%;
   }
@@ -429,6 +457,10 @@ body {
   margin: 0 0 195px 0;
   padding: 374px 0 0 0;
   overflow: hidden;
+  @media(max-width: 767px) {
+    padding: 130px 0 0 0;
+    margin: 0 0 100px 0;
+  }
   .container {
     max-width: 1573px;
     display: flex;
@@ -551,7 +583,10 @@ body {
 }
 
 .subscribe {
-  margin: 0 0 126px 0;
+  margin: 133px 0 126px 0;
+  @media(max-width: 767px) {
+    margin: 100px 0 50px 0;
+  }
   .container {
     max-width: 940px;
     display: flex;
@@ -564,7 +599,7 @@ body {
     font-weight: 600;
     font-size: 53px;
     text-align: center;
-    margin: 133px 0 30px 0;
+    margin: 0 0 30px 0;
   }
 
   &__text {
@@ -574,6 +609,9 @@ body {
     font-size: 20px;
     line-height: 33px;
     margin: 0 0 100px 0;
+    @media(max-width: 767px) {
+      margin: 0 0 40px 0;
+    }
   }
 
   &__form {
@@ -621,6 +659,9 @@ body {
 
 .socials {
   margin: 0 0 59px 0;
+  @media(max-width: 767px) {
+    margin: 0 0 50px 0;
+  }
   .container {
     max-width: 257px;
     display: flex;
