@@ -14,6 +14,23 @@ function update() {
 	}
 }
 
+// preload images for fixing animations
+$(document).ready(function(){
+	let images_uri = [
+		"download/01_.png",
+		"download/02_.png",
+		"download/03_.png",
+		"download/04_.png",
+		"socials/01_.png",
+		"socials/02_.png",
+		"socials/03_.png",
+		"socials/04_.png",
+	]
+	images_uri.forEach((uri) => {
+		jQuery("<img>").attr("src", "images/" + uri);
+	})
+});
+
 // sliders
 $(document).ready(function(){
     $('.home__slider').slick({

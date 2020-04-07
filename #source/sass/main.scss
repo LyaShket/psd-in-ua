@@ -6,12 +6,9 @@
 @import "burger";
 
 /* common styles */
-body {
+.wrapper {
   font-family: Poppins;
   overflow-x: hidden;
-  &.lock {
-    overflow-y: hidden;
-  }
 }
 .container {
   max-width: 1710px;
