@@ -27,7 +27,8 @@ $(document).ready(function(){
 		"socials/04_.png",
 	]
 	images_uri.forEach((uri) => {
-		jQuery("<img>").attr("src", "images/" + uri);
+		let img = new Image();
+		img.src = "images/" + uri;
 	})
 });
 
